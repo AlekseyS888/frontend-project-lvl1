@@ -10,10 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/AlekseyS888/frontend-project-lvl1.git"
   },
-  "type":"module",
+  "type": "module",
   "author": "Aleks",
   "bin": {
-  "brain-games": "bin/brain-games.js"
+    "brain-games": "bin/brain-games.js"
   },
   "license": "ISC",
   "bugs": {
@@ -22,5 +22,8 @@
   "homepage": "https://github.com/AlekseyS888/frontend-project-lvl1#readme",
   "devDependencies": {
     "jest": "^27.5.0"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
   }
 }
