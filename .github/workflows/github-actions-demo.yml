@@ -15,6 +15,13 @@ jobs:
         run: |
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
+      - name: npm install
+        # Install project
+        run: |
+          make install
+        # Add environment variables
+        env:
+          CI: true
       - name: Run linter
         # Run Linter
         run: |
