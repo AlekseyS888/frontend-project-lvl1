@@ -1,4 +1,4 @@
-instal:
+install:
 	npm ci
 
 brain-games:
@@ -9,4 +9,3 @@ publish:
 
 lint:
 	npx eslint .
-	
