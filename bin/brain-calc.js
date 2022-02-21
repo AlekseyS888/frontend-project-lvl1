@@ -25,14 +25,13 @@ while (quantityCorrectAnswer < 3) {
         correctAnswer = randomNum1 * randomNum2;
         break;
     }
-
   console.log(`Question: ${randomNum1}${randomOperator}${randomNum2}`);
   const answer = readlineSync.question('Your answer: ');
-  if (correctAnswer = answer) {
+  if (correctAnswer === parseInt(answer)) {
   quantityCorrectAnswer += 1;
   console.log('Correct!');
-  quantityCorrectAnswer = 3 ? console.log(`'Congratulation, ${userName}!'`) : '';
-} else if (correctAnswer != answer) {
+  quantityCorrectAnswer === 3 ? console.log(`'Congratulation, ${userName}!'`) : '';
+} if (correctAnswer !== parseInt(answer)) {
   quantityCorrectAnswer = 4;
   console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${userName}!)`);
 } 
