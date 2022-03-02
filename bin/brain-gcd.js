@@ -5,29 +5,23 @@ console.log('Welcome to the Brain Games!');
 const userName = readlineSync.question('May I have your name? ');
 console.log(`Hello, ${userName}!`);
 
-console.log('What is the result of the expression?');
+console.log('Find the greatest common divisor of given numbers.');
 
 let quantityCorrectAnswer = 0;
 while (quantityCorrectAnswer < 3) {
-  const randomNum1 = Math.floor(Math.random() * 10);
-  const randomNum2 = Math.floor(Math.random() * 10);
-  const operator = ['+', '-', '*'];
-  const randomOperator = operator[Math.floor(Math.random() * operator.length)];
-  let correctAnswer = 0;
-  switch (randomOperator) {
-    case '+':
-      correctAnswer = randomNum1 + randomNum2;
-      break;
-    case '-':
-      correctAnswer = randomNum1 - randomNum2;
-      break;
-    case '*':
-      correctAnswer = randomNum1 * randomNum2;
-      break;
-    default:
-      console.log('чо-то не так!');
+let randomNum1 = Math.floor(Math.random() * 10);
+let randomNum2 = Math.floor(Math.random() * 10);
+
+  function correctAnswerGcd (randomNum1, randomNum2) {
+    if (!randomNum2) {
+      return randomNum1;
+    }
+    return correctAnswerGcd(randomNum2, randomNum1 % randomNum2);
   }
-  console.log(`Question: ${randomNum1}${randomOperator}${randomNum2}`);
+
+let correctAnswer = correctAnswerGcd(randomNum1, randomNum2);
+
+console.log(`Question: ${randomNum1} ${randomNum2}`);
   const answer = readlineSync.question('Your answer: ');
   if (correctAnswer === Number(answer)) {
     quantityCorrectAnswer += 1;
@@ -39,4 +33,4 @@ while (quantityCorrectAnswer < 3) {
     quantityCorrectAnswer = 4;
     console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${userName}!)`);
   }
-}
+};
