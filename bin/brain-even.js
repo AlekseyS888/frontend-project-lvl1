@@ -8,9 +8,7 @@ console.log(`Hello, ${userName}!`);
 console.log('Answer "yes" if the number is even, otherwise answer "no".');
 
 let quantityCorrectAnswer = 0;
-if (quantityCorrectAnswer === 3) {
-  console.log(`'Congratulation, ${userName}!'`);
-}
+
 while (quantityCorrectAnswer < 3) {
   const randomNum = Math.floor(Math.random() * 100);
   const parityCheckRandomNum = (randomNum % 2 === 0) ? 'yes' : 'no';
@@ -19,6 +17,9 @@ while (quantityCorrectAnswer < 3) {
   if (parityCheckRandomNum === answer) {
     quantityCorrectAnswer += 1;
     console.log('Correct!');
+  }
+  if (quantityCorrectAnswer === 3) {
+    console.log(`'Congratulation, ${userName}!'`);
   }
   if (parityCheckRandomNum !== answer) {
     quantityCorrectAnswer = 4;
