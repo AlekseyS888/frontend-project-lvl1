@@ -33,7 +33,7 @@ while (quantityCorrectAnswer < 3) {
     quantityCorrectAnswer += 1;
     console.log('Correct!');
     if (quantityCorrectAnswer === 3) {
-      console.log(`'Congratulation, ${userName}!'`);
+      console.log(`Congratulation, ${userName}!`);
     }
   } if (correctAnswer !== Number(answer)) {
     quantityCorrectAnswer = 4;
