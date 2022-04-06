@@ -19,7 +19,7 @@ while (quantityCorrectAnswer < 3) {
     console.log('Correct!');
   }
   if (quantityCorrectAnswer === 3) {
-    console.log(`Congratulation, ${userName}!`);
+    console.log(`Congratulations, ${userName}!`);
   }
   if (parityCheckRandomNum !== answer) {
     quantityCorrectAnswer = 4;
