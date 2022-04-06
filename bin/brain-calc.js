@@ -27,7 +27,7 @@ while (quantityCorrectAnswer < 3) {
     default:
       console.log('чо-то не так!');
   }
-  console.log(`Question: ${randomNum1}${randomOperator}${randomNum2}`);
+  console.log(`Question: ${randomNum1} ${randomOperator} ${randomNum2}`);
   const answer = readlineSync.question('Your answer: ');
   if (correctAnswer === Number(answer)) {
     quantityCorrectAnswer += 1;
