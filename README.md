@@ -1,7 +1,7 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/AlekseyS888/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/AlekseyS888/frontend-project-lvl1/actions)
 
-https://codeclimate.com/github/AlekseyS888/frontend-project-lvl1
+<a href="https://codeclimate.com/github/AlekseyS888/frontend-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/2501cd45041103ac78fe/maintainability" /></a>
 
 brain-calc: https://asciinema.org/a/486308
 brain-even: https://asciinema.org/a/486309
