@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import readlineSync from 'readline-sync';
+
 import getRandomNumber from '../getRandomNumber.js';
 
 const calcGame = () => {
