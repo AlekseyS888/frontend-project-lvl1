@@ -3,7 +3,7 @@
 
 <a href="https://codeclimate.com/github/AlekseyS888/frontend-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/2501cd45041103ac78fe/maintainability" /></a>
 
-brain-calc: <a href="https://asciinema.org/a/486312" target="_blank"><img src="https://asciinema.org/a/486312.svg" /></a>
+brain-calc: https://asciinema.org/a/486308
 brain-even: https://asciinema.org/a/486309
 brain-gcd: https://asciinema.org/a/486310
 brain-prime: https://asciinema.org/a/486311
