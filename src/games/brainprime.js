@@ -19,7 +19,7 @@ const primeGame = () => {
     }
     return 'yes';
   }
-
+  
   let quantityCorrectAnswer = 0;
   while (quantityCorrectAnswer < 3) {
     const randomNum = getRandomNumber(1, 100);
