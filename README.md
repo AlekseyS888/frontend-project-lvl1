@@ -7,4 +7,4 @@ brain-calc: https://asciinema.org/a/486308
 brain-even: https://asciinema.org/a/486309
 brain-gcd: https://asciinema.org/a/486310
 brain-prime: https://asciinema.org/a/486311
-brain-progression: https://asciinema.org/a/486312
+brain-progression: [![asciicast](https://asciinema.org/a/486312.svg)](https://asciinema.org/a/486312)
