@@ -19,11 +19,15 @@
 
 **brain-calc:**
 [![asciicast](https://asciinema.org/a/486308.svg)](https://asciinema.org/a/486308)
+
 **brain-even:**
 [![asciicast](https://asciinema.org/a/486309.svg)](https://asciinema.org/a/486309)
+
 **brain-gcd**
 [![asciicast](https://asciinema.org/a/486310.svg)](https://asciinema.org/a/486310)
+
 **brain-prime**
 [![asciicast](https://asciinema.org/a/486311.svg)](https://asciinema.org/a/486311)
+
 **brain-progression**
 [![asciicast](https://asciinema.org/a/486312.svg)](https://asciinema.org/a/486312)
