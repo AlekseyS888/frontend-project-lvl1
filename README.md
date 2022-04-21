@@ -15,6 +15,8 @@
 - Add and check depencies: enter command line `make install`
 - Run games: enter command line `*game name*`
 
+# Gamelist:
+
 - brain-calc: 
 [![asciicast](https://asciinema.org/a/486308.svg)](https://asciinema.org/a/486308)
 - brain-even: 
