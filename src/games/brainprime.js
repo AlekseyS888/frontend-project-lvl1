@@ -16,7 +16,7 @@ const isPrimal = (number) => {
 };
 
 const gameCheck = () => {
-  const number = getRandomNumber(1, 100);
+  const number = getRandomNumber(2, 100);
   const question = `${number}`;
   const correctAnswer = isPrimal(number) ? 'yes' : 'no';
   return [question, correctAnswer];
