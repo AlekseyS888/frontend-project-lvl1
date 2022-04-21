@@ -15,19 +15,19 @@
 - Add and check depencies: enter command line `make install`
 - Run games: enter command line `*game name*`
 
-# Game list:
+# Games overviews:
 
-**brain-calc:**
+**brain-calc asciinema**
 [![asciicast](https://asciinema.org/a/486308.svg)](https://asciinema.org/a/486308)
 
-**brain-even:**
+**brain-even asciinema**
 [![asciicast](https://asciinema.org/a/486309.svg)](https://asciinema.org/a/486309)
 
-**brain-gcd**
+**brain-gcd asciinema**
 [![asciicast](https://asciinema.org/a/486310.svg)](https://asciinema.org/a/486310)
 
-**brain-prime**
+**brain-prime asciinema**
 [![asciicast](https://asciinema.org/a/486311.svg)](https://asciinema.org/a/486311)
 
-**brain-progression**
+**brain-progression asciinema**
 [![asciicast](https://asciinema.org/a/486312.svg)](https://asciinema.org/a/486312)
