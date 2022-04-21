@@ -17,17 +17,17 @@
 
 # Games overviews:
 
-**brain-calc asciinema**
-[![asciicast](https://asciinema.org/a/486308.svg)](https://asciinema.org/a/486308)
-
 **brain-even asciinema**
 [![asciicast](https://asciinema.org/a/486309.svg)](https://asciinema.org/a/486309)
+
+**brain-calc asciinema**
+[![asciicast](https://asciinema.org/a/486308.svg)](https://asciinema.org/a/486308)
 
 **brain-gcd asciinema**
 [![asciicast](https://asciinema.org/a/486310.svg)](https://asciinema.org/a/486310)
 
-**brain-prime asciinema**
-[![asciicast](https://asciinema.org/a/486311.svg)](https://asciinema.org/a/486311)
-
 **brain-progression asciinema**
 [![asciicast](https://asciinema.org/a/486312.svg)](https://asciinema.org/a/486312)
+
+**brain-prime asciinema**
+[![asciicast](https://asciinema.org/a/486311.svg)](https://asciinema.org/a/486311)
