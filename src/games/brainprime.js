@@ -1,41 +1,27 @@
-import readlineSync from 'readline-sync';
+import engine from '../engine.js';
 import getRandomNumber from '../getRandomNumber.js';
 
-const primeGame = () => {
-  console.log('Welcome to the Brain Games!');
-  const userName = readlineSync.question('May I have your name? ');
-  console.log(`Hello, ${userName}!`);
+const gameRules = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
-  console.log('Answer "yes" if given number is prime. Otherwise answer "no".');
-
-  function isPrime(randomNum) {
-    let i = 2;
-    const limit = Math.sqrt(randomNum);
-    while (i <= limit) {
-      if (randomNum % i === 0) {
-        return 'no';
-      }
-      i += 1;
-    }
-    return 'yes';
+const isPrimal = (number) => {
+  if (number < 2) {
+    return false;
   }
-
-  let quantityCorrectAnswer = 0;
-  while (quantityCorrectAnswer < 3) {
-    const randomNum = getRandomNumber(1, 100);
-    const correctAnswer = isPrime(randomNum);
-    console.log(`Question: ${randomNum}`);
-    const answer = readlineSync.question('Your answer: ');
-    if (correctAnswer === answer) {
-      quantityCorrectAnswer += 1;
-      console.log('Correct!');
-      if (quantityCorrectAnswer === 3) {
-        console.log(`Congratulations, ${userName}!`);
-      }
-    } if (correctAnswer !== answer) {
-      quantityCorrectAnswer = 4;
-      console.log(`'${answer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.\nLet's try again, ${userName}!)`);
+  for (let i = 2; i <= Math.sqrt(number); i += 1) {
+    if (number % i === 0) {
+      return false;
     }
   }
+  return true;
 };
+
+const gameCheck = () => {
+  const number = getRandomNumber(1, 100);
+  const question = `${number}`;
+  const correctAnswer = isPrimal(number) ? 'yes' : 'no';
+  return [question, correctAnswer];
+};
+
+const primeGame = () => engine(gameRules, gameCheck);
+
 export default primeGame;
